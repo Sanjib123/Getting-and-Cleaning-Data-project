@@ -1,7 +1,7 @@
 ## This script merges data from a number of .txt files and produces 
 ## a tidy data set which may be used for further analysis.
 
-##check for required packages
+##check for required packages if installed.
 
 
 if (!("reshape2" %in% rownames(installed.packages())) ) {
